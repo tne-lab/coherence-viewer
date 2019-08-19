@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/200098473.svg)](https://zenodo.org/badge/latestdoi/200098473)
 # Coherence Viewer
 This plugin for the [Open Ephys GUI](https://github.com/open-ephys/plugin-GUI) preforms real time coherence estimation between two groups of channels. The primary purpose of this plugin is to visualize the coherence between two brain regions in real time to get feedback on the effects of a stimulus - electrical/opto stimulation, task or environmental changes, etc. The plugin allows the user to choose channels to correspond to two different groups. Each channel combination between the two groups will be analyzed. Individual combinations or the average across all combinations can be chosen as the visualization. See [video](https://drive.google.com/open?id=1Qn3aU0Fl4xd-TCFRlrGKvbNjoVNFkC9a).
 
