@@ -125,7 +125,7 @@ private:
     int trimTime;
 
     // # channels x # frequencies x # times
-	vector<vector<vector<const std::complex<double>>>> spectrumBuffer;
+	vector<vector<vector<std::complex<double>>>> spectrumBuffer;
     vector<vector<std::complex<double>>> waveletArray;
 
     FFTWArrayType ifftBuffer;

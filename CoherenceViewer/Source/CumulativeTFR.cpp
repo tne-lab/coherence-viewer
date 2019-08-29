@@ -40,8 +40,8 @@ CumulativeTFR::CumulativeTFR(int ng1, int ng2, int nf, int nt, int Fs, float win
     , windowLen     (winLen)
     , waveletArray  (nf, vector<std::complex<double>>(nfft))
     , spectrumBuffer(ng1 + ng2, 
-                     vector<vector<const std::complex<double>>>(nf,
-                     vector<const std::complex<double>>(nt)))
+                     vector<vector<std::complex<double>>>(nf,
+                     vector<std::complex<double>>(nt)))
     , powBuffer     (ng1 + ng2,
                     vector<vector<RealWeightedAccum>>(nf,
                     vector<RealWeightedAccum>(nt, RealWeightedAccum(alpha))))
